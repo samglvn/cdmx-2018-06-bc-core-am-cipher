@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
+<head>
+	<meta charset="utf-8">
+	<title>Cesar Encryption</title>
+	<link rel = "stylesheet" href="style.css"/>
+	<link href= 'https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+</head>
+<body>
+	<h1>Cifrado Cesar</h1>
+
+	<p>Introduce tu mensaje: </p><br><p id= "cifra"></p>
+	<input type="text" name="mensaje" id="mensajedeentrada"><br>
+	<p>La llave numerica es: </p><br>
+	<p id="descifra"></p>
+	<input type="number" name="desplazamiento" id="desplazamientoMens"><br>
+	<button type="button" id="boton1">Encriptar</button>
+	<button type="button" id="boton2">Desencriptar</button><br>
+	<br>
+	<br>
+	<p>Mensaje Codificado / Decodificado: </p>
+	<p id="resultando"> </p>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

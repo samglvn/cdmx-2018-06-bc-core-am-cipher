@@ -1,0 +1,49 @@
+body {
+  background-image:("neon.jpg");
+
+}
+body {
+  font-family: 'Lato',fantasy;
+   background-color:#9933FF;
+  }
+h1 {
+  font-family:"Lato",cursive;
+  color : white;
+  text-decoration:underline;
+  font-size: 60px;
+  text-decoration-style: double;
+  text-decoration-color: #FF1493;
+  text-align: center;
+}
+#cifra {
+}
+#mensajedeentrada{
+  border-radius: 40px;
+  font-size: 34px;
+}
+#desplazamientoMens {
+  border-radius: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+#boton1{
+  background: #7CFC00;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: black;
+  font-size: 16px;
+  transition-duration: .5s;
+  margin-top: 15px;
+}
+#boton2{
+  background: #7CFC00;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: black;
+  font-size: 16px;
+  transition-duration: .5s;
+  margin-top: 15px;
+
+}
