@@ -1,13 +1,19 @@
 body {
-  background-image:("neon.jpg");
+  background-image:url("images/neon.jpg");
+background-size: cover;
 
 }
 body {
-  font-family: 'Lato',fantasy;
-   background-color:#9933FF;
+  font-family: "Indie-Flower";
+  font-style: italic;
+  font-variant: inherit;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+
   }
 h1 {
-  font-family:"Lato",cursive;
+  font-family:"Indie-Flower",cursive;
   color : white;
   text-decoration:underline;
   font-size: 60px;

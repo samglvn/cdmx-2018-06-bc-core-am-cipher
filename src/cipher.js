@@ -1,9 +1,8 @@
 window.cipher = {
-
-encode:(string, offset) => {
+encode:(string, offset) => { //funcion que encripta
   let mensaje2 = " ";
     	for(i = 0; i<string.length; i++){
-        let mensaje1 = string.charCodeAt(i)//agregar un if para el espacio
+        let mensaje1 = string.charCodeAt(i) //
           if(mensaje1 >=97 && mensaje1<=122) {
             mensaje2 += String.fromCharCode((mensaje1 -97 + offset) %26+97);
             //console.log (mensaje2[i]);
